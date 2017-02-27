@@ -60,8 +60,7 @@ SRC	=	wiringPi.c						\
 		drcSerial.c						\
 		wpiExtensions.c
 
-HEADERS =	wiringPi.h						\
-		wiringSerial.h wiringShift.h				\
+HEADERS =	wiringSerial.h wiringShift.h				\
 		wiringPiSPI.h wiringPiI2C.h				\
 		softPwm.h softTone.h					\
 		mcp23008.h mcp23016.h mcp23017.h			\
