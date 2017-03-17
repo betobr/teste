@@ -22,15 +22,12 @@
 #ifdef HAVE_VDPAU
 #include "ffmpeg_vdpau.h"
 #endif
-
 #include <Limelight.h>
-
 #include <stdlib.h>
-#include <libswscale/swscale.h>
+#include <../ffmpeg-3.2.2/libswscale/swscale.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdbool.h>
-
 // General decoder and renderer state
 static AVPacket pkt;
 static AVCodec* decoder;
