@@ -22,9 +22,7 @@
 #ifdef HAVE_VDPAU
 #include "ffmpeg_vdpau.h"
 #endif
-
 #include <Limelight.h>
-
 #include <stdlib.h>
 #include <../ffmpeg-3.2.2/libswscale/swscale.h>
 #include <pthread.h>
